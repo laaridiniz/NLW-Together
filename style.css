@@ -173,21 +173,25 @@ nav ul li a {
   transition: color 0.2s;
   position: relative;
 }
+
 nav ul li a:hover {
   color: var(--base-color);
 }
+
 nav ul li a::after {
   content: '';
   width: 0%;
   height: 2px;
-  background: var(--base-color);
+  background: var(--base-color-second);
   position: absolute;
   left: 0;
   bottom: -1.5rem;
   transition: width 0.2s;
 }
-nav ul li a:hover::after {
+nav ul li a:hover::after,
+nav ul li a.active::after {
   width: 100%;
+  font-weight: bold;
 }
 nav .menu {
   opacity: 0;
@@ -346,7 +350,7 @@ nav.show div.icon-close {
 
 .card {
   padding: 3.625rem 2rem;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.08);
   border-bottom: 0.25rem solid var(--base-color);
   border-radius: 0.25rem 0.25rem 0 0;
   text-align: center;
@@ -520,6 +524,7 @@ footer .social a:hover {
 /* Media queries */
 /* extra large devices: 1200 > */
 @media (min-width: 1200px) {
+  /* Reusable classes */
   .container {
     max-width: 1120px;
     margin-left: auto;
@@ -528,7 +533,8 @@ footer .social a:hover {
   .section {
     padding: 10rem 0;
   }
-  .section header {
+  .section header,
+  #testimonials header {
     max-width: 32rem;
     text-align: center;
     margin-left: auto;
@@ -537,6 +543,8 @@ footer .social a:hover {
   .button {
     height: 3.125rem;
   }
+
+  /* Navigation */
   nav .menu {
     opacity: 1;
     visibility: visible;
@@ -564,8 +572,9 @@ footer .social a:hover {
   /*---- Home ----*/
   #home .container {
     grid-auto-flow: column;
-    width: fit-content;
     justify-content: space-between;
+    width: fit-content;
+    margin: 0 auto;
   }
   #home .image {
     order: 1;
@@ -589,6 +598,37 @@ footer .social a:hover {
   .card {
     padding-left: 3rem;
     padding-right: 3rem;
+  }
+
+  /* Testimonials */
+  #testimonials .container {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* Contact */
+  #contact .container {
+    grid-auto-flow: column;
+    align-items: center;
+  }
+  #contact .text {
+    max-width: 25rem;
+  }
+
+  /* Footer */
+
+  footer.section {
+    padding: 3.75rem 0;
+  }
+
+  footer .container {
+    grid-auto-flow: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  footer .logo {
+    font-size: 2.25rem;
   }
 }
 
