@@ -38,10 +38,9 @@ Em relação ao desenvolvimento em si, este projeto contou com as seguintes tecn
 Na imagem abaixo encontram-se os resultados dos códigos utilizados. Com o JavaScript, a aplicação permite que as informações do contato sejam alteradas para se adequar ao perfil
 de cada usuário. Feita essa alteração, os links das redes sociais são adaptados automaticamente.
 O projeto também pode ser encontrado [neste link](https://laaridiniz.github.io/NLW-Heat/).
+  
+https://user-images.githubusercontent.com/86115352/140411006-37f15a41-7464-41eb-a898-bbf56393d5ef.mp4
 
-<p align="center">
-  <img alt="Demonstração" src="https://github.com/laaridiniz/NLW-Heat/blob/main/images/Cracha.jpg" width="230px" />
-</p>
 
 <div id="requisitos">
 
