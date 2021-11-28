@@ -1,15 +1,15 @@
 # :desktop_computer: Página Web - NLW Together
-Confira abaixo os detalhes da aplicação desenvolvida no evento oferecido pela RocketSeat 🚀 <br>
-
+Confira abaixo os detalhes da aplicação desenvolvida no evento oferecido pela RocketSeat 🚀 
+<br id="topo">
 <p align="center">
   <a href="#projeto">Sobre a aplicação</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#tecs">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-   <a href="#demo">Demonstração</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#demo">Demonstração</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#requisitos">Como executar</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#dev">Dev</a>
 </p>
 
-<div id="Projeto">
+<div id="#projeto">
   
 ## :page_facing_up: Sobre a aplicação
 O projeto desenvolvido consiste em uma página web construído na trilha Origin da Next Level Week Together. Com a finalidade de servir de cartão de visita para possíveis clientes de um salão de beleza, 
@@ -30,6 +30,8 @@ Em relação ao desenvolvimento em si, este projeto contou com as seguintes tecn
 - Visual Studio Code (editor de códigos)
 - GitHub (versionamento de códigos)
 
+→ [Voltar ao topo](#topo)
+
 </div>
 
 <div id="demo">
@@ -39,6 +41,7 @@ No vídeo abaixo encontram-se os resultados dos códigos utilizados:
   
 https://user-images.githubusercontent.com/86115352/140411006-37f15a41-7464-41eb-a898-bbf56393d5ef.mp4
 
+→ [Voltar ao topo](#topo)
 
 <div id="requisitos">
 
