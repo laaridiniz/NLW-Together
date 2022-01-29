@@ -41,6 +41,8 @@ No vídeo abaixo encontram-se os resultados dos códigos utilizados:
   
 https://user-images.githubusercontent.com/86115352/140411006-37f15a41-7464-41eb-a898-bbf56393d5ef.mp4
 
+> Para a visualização do site online pelo Github [clique aqui](https://laaridiniz.github.io/NLW-Together/)
+  
 → [Voltar ao topo](#topo)
 
 <div id="requisitos">
